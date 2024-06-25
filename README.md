@@ -28,9 +28,9 @@ The repository currently includes implementations of the following CNN architect
 ### 1. LeNet-5
 
 - The network has 5 layers
-- The input to this model is a 32*32 grayscale image hence the number of channels is one.
-- First convolution layers, with the filter size 5*5 and we have 6 such filters. As a result, we get a feature map of size 28*28*6
-- Second convolution layers, with sixteen filters of size 5*5. Again the feature map changed it is 10*10*16. we get a feature map of size 5*5*16.
+- The input to this model is a 32 * 32 grayscale image hence the number of channels is one.
+- First convolution layers, with the filter size 5 * 5 and we have 6 such filters. As a result, we get a feature map of size 28 * 28 * 6
+- Second convolution layers, with sixteen filters of size 5 * 5. Again the feature map changed it is 10 * 10 * 16. we get a feature map of size 5 * 5 * 16.
 - After that we Flatten the result, to be ready for the 3rd layer
 - The 3rd layer, is a FC layer with 120 neurons
 - The 4th layer, is a FC layer with 84 neurons
