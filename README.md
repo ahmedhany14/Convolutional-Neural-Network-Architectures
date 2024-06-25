@@ -37,15 +37,15 @@ The repository currently includes implementations of the following CNN architect
 - The 5th layer, is a outout layer with 10 neurons
 - Architecture Details:
 
-| Layer (type)              | Output Shape       | Param #  |
-|---------------------------|--------------------|----------|
-| conv2d_4 (Conv2D)         | (None, 24, 24, 6)  |      156 |
-| average_pooling2d_4       | (None, 12, 12, 6)  |        0 |
-| (AveragePooling2D)        |                    |          |
-| conv2d_5 (Conv2D)         | (None, 8, 8, 15)   |    2,265 |
-| average_pooling2d_5       | (None, 4, 4, 15)   |        0 |
-| (AveragePooling2D)        |                    |          |
-| flatten_2 (Flatten)       | (None, 240)        |        0 |
-| dense_6 (Dense)           | (None, 120)        |   28,920 |
-| dense_7 (Dense)           | (None, 84)         |   10,164 |
-| dense_8 (Dense)           | (None, 10)         |      850 |
+| Layer (type)        | Output Shape      | Param # |
+| ------------------- | ----------------- | ------- |
+| conv2d_4 (Conv2D)   | (None, 24, 24, 6) | 156     |
+| average_pooling2d_4 | (None, 12, 12, 6) | 0       |
+| (AveragePooling2D)  |                   |         |
+| conv2d_5 (Conv2D)   | (None, 8, 8, 15)  | 2,265   |
+| average_pooling2d_5 | (None, 4, 4, 15)  | 0       |
+| (AveragePooling2D)  |                   |         |
+| flatten_2 (Flatten) | (None, 240)       | 0       |
+| dense_6 (Dense)     | (None, 120)       | 28,920  |
+| dense_7 (Dense)     | (None, 84)        | 10,164  |
+| dense_8 (Dense)     | (None, 10)        | 850     |
