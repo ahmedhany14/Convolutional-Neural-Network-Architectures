@@ -25,7 +25,7 @@ The repository currently includes implementations of the following CNN architect
 - [ResNet](https://medium.com/@siddheshb008/resnet-architecture-explained-47309ea9283d)
 - [GoogLeNet (Inception)](https://viso.ai/deep-learning/googlenet-explained-the-inception-model-that-won-imagenet/)
 
-1. LeNet-5
+### 1. LeNet-5
 
 - The network has 5 layers
 - The input to this model is a 32\*32 grayscale image hence the number of channels is one.
