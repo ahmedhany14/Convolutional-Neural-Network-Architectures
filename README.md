@@ -36,6 +36,7 @@ The repository currently includes implementations of the following CNN architect
 - The 4th layer, is a FC layer with 84 neurons
 - The 5th layer, is a outout layer with 10 neurons
 - Architecture Details:
+
 | Layer (type)              | Output Shape       | Param #  |
 |---------------------------|--------------------|----------|
 | conv2d_4 (Conv2D)         | (None, 24, 24, 6)  |      156 |
